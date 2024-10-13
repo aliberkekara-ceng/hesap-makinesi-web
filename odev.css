@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 12px;
+}
+
+.hesapMakinesi{
+    border: 2px solid turquoise ;
+    border-radius: 5px;
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hesapBilgi{
+    width: 100%;
+    font-size: 40px;
+    height: 70px;
+    border: none;
+    background-color:rgb(156, 219, 238);
+    color:blue ;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+button{
+    height: 50px;
+    background-color: rgb(56, 44, 44);
+    border-radius: 5px;
+    border: 2px solid turquoise ;
+    background-color: transparent;
+    font-size: 25px;
+    color: blue;
+}
+
+button:hover{
+    background-color:rgb(142, 218, 193);
+}
+
+.butonlar{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 20px;
+padding: 25px;
+
+}
+.equal-sign{
+    grid-area: 2/4/6/5;
+    height: 100%;
+}
